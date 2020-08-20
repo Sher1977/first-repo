@@ -1,0 +1,50 @@
+Git
+
+github.com
+user: sher1977
+pass: Awesome1!66
+
+
+
+git add "file"
+git commit -m "info"
+git status
+
+bestand verwijderen:	
+	git rm --cached "naam"
+
+branch maken:
+	git branche "naam"
+
+switchen van branch:
+	git checkout "naam"
+	git checkout master
+
+mergen vanuit master:
+	git merge "naam van branch"
+
+remote repositories bekijken:
+	git remote -v
+
+remote repository toevoegen:
+	git remote add origin https://github.com/Sher1977/first-repo.git
+
+local repo uploaden naar remote repo:
+	git push -u origin master
+	git push
+
+lokale repo updaten met origin/master:
+	git pull	
+
+
+http login wijzigen naar ssh login:
+	git remote set-url origin git@github.com:sher1977/first-repo.git
+
+logging bekijken:
+	git log
+
+naar voorgaande staat/commit gaan:
+	git checkout "commit hash" (alleen hash invoeren)
+
+
+
